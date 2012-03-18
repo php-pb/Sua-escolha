@@ -1,0 +1,15 @@
+Objetivo
+
+Implementar, a partir do modelo padrão abaixo, projetos nas seguintes frameworks:
+
+Zend Framework
+CakePHP
+Symfony 2
+CodeIgniter
+Yii
+
+Objetivos secundários
+
+Promover a comparação entre as frameworks existentes
+Criar um modelo padrão para implementação de futuros projetos
+Tirar dúvidas básicas de configuração e implementação
