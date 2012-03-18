@@ -1,0 +1,6 @@
+[submodule "apoio/bootstrap"]
+	path = apoio/bootstrap
+	url = https://github.com/twitter/bootstrap.git
+[submodule "apoio/jquery"]
+	path = apoio/jquery
+	url = https://github.com/jquery/jquery.git
