@@ -28,7 +28,7 @@ if (!defined('DS')) {
 /**
  * The full path to the directory which holds "app", WITHOUT a trailing DS.
  */
-defined('ROOT') || define('ROOT', dirname(dirname(dirname(dirname(__FILE__)))));
+defined('ROOT') || define('ROOT', dirname(dirname(dirname(__FILE__))));
 
 /**
  * The actual directory name for the "app".
