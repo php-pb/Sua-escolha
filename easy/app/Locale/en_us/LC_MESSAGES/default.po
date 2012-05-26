@@ -1,0 +1,1464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EasyFrameworkSite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-23 17:40-0300\n"
+"PO-Revision-Date: 2012-04-23 17:41-0300\n"
+"Last-Translator: Ítalo Lelis de Vietro <italolelis@lellysinformatica.com>\n"
+"Language-Team: Ítalo Lelis de Vietro <italolelis@lellysinformatica.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\easyframeworkSite\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: app\n"
+
+#: app/Controller/AppController.php:109
+msgid "Usuário e/ou senha incorreto(s)!"
+msgstr ""
+
+#: app/Controller/ContactController.php:46
+msgid "Thank you for your feedback,"
+msgstr ""
+
+#: app/Controller/ContactController.php:47
+msgid "We've received your email. We'll be in touch as soon as possble!"
+msgstr ""
+
+#: app/Controller/ContactController.php:51
+msgid "Sorry, we coudn't send you email."
+msgstr ""
+
+#: app/Controller/ContactController.php:62
+#: app/Model/User.php:8
+msgid "Please enter your name"
+msgstr ""
+
+#: app/Controller/ContactController.php:66
+#: app/Model/User.php:9
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: app/Controller/ContactController.php:74
+msgid "Please specify the message"
+msgstr ""
+
+#: app/Controller/UsersController.php:46
+msgid "Thank your for registraing. A email confirm was sent to you."
+msgstr ""
+
+#: app/Controller/UsersController.php:56
+msgid "Free plan ($0/month)"
+msgstr ""
+
+#: app/Controller/UsersController.php:57
+msgid "Basic plan ($49/month)"
+msgstr ""
+
+#: app/Controller/UsersController.php:75
+msgid "Changes saved."
+msgstr ""
+
+#: app/Model/User.php:7
+msgid "Please select a plan"
+msgstr ""
+
+#: app/Model/User.php:10
+msgid "Please enter a password greater than 6"
+msgstr ""
+
+#: app/Model/User.php:11
+msgid "The password must be equal the confirm"
+msgstr ""
+
+#: app/Model/User.php:82
+msgid "Confirmation Link"
+msgstr ""
+
+#: app/Model/User.php:90
+msgid "Thank You for subscribe."
+msgstr ""
+
+#: app/Model/User.php:91
+msgid "Please follow the link below to activate your account."
+msgstr ""
+
+#: app/Model/Enums/GendersEnum.php:10
+msgid "Male"
+msgstr ""
+
+#: app/Model/Enums/GendersEnum.php:11
+msgid "Female"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:65
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:208
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:143
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:59
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:148
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:196
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:65
+msgid "Screencasts"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:66
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:100
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:66
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:100
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:66
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:100
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:66
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:100
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:66
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:100
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:59
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:89
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:60
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:94
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:59
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:93
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:66
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:100
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:66
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:100
+msgid "EasyFramework - The rapid development PHP framework"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:99
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:99
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:99
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:99
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:99
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:88
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:93
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:92
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:99
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:99
+msgid "Go to Homepage"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:107
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:184
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:314
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:107
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:184
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:261
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:107
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:184
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:381
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:107
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:184
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:355
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:107
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:184
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:346
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:96
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:167
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:260
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:101
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:172
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:304
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:58
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:100
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:404
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:107
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:184
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:346
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:107
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:309
+msgid "Home"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:111
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:111
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:65
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:111
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:185
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:111
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:111
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:100
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:105
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:104
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:111
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:111
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:34
+msgid "Downloads"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:115
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:115
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:115
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:187
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:115
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:115
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:104
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:109
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:108
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:115
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:115
+msgid "Framework"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:118
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:118
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:118
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:118
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:118
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:107
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:112
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:111
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:118
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:118
+msgid "Components"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:121
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:121
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:121
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:121
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:121
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:110
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:115
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:114
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:121
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:121
+msgid "Helpers"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:125
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:125
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:125
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:125
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:125
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:114
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:119
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:118
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:125
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:125
+msgid "Cookbook"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:130
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:322
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:130
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:269
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:130
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:389
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:130
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:363
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:130
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:354
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:58
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:119
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:170
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:268
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:124
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:312
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:123
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:412
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:130
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:354
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:130
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:317
+msgid "License"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:132
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:132
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:132
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:132
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:132
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:121
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:126
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:125
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:132
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:132
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:51
+msgid "Documentation"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:136
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:136
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:136
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:136
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:136
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:125
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:130
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:129
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:136
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:136
+msgid "1.x"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:138
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:138
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:138
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:138
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:138
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:127
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:132
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:131
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:138
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:138
+msgid "2.x"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:144
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:144
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:144
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:144
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:144
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:138
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:137
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:144
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:144
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:72
+msgid "Community"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:148
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:148
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:148
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:148
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:148
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:141
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:148
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:148
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:76
+msgid "Issues"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:151
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:151
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:151
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:151
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:151
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:140
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:145
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:144
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:151
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:151
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:79
+msgid "Facebook"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:154
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:154
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:154
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:154
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:154
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:137
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:142
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:147
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:154
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:154
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:82
+msgid "Twitter"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:157
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:157
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:157
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:157
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:157
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:150
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:157
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:157
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:85
+msgid "Contributors"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:160
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:160
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:160
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:160
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:160
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:153
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:160
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:160
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:88
+msgid "Logos"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:167
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:325
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:167
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:272
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:167
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:392
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:167
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:366
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:167
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:357
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:150
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:271
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:155
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:315
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:160
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:415
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:167
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:357
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:167
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:186
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:320
+msgid "Contact"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:186
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:174
+msgid "Media"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:193
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:193
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:194
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:193
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:193
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:177
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:181
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:193
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:193
+msgid "Start searching..."
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:233
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:221
+msgid "Talks"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:318
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:265
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:385
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:359
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:350
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:264
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:308
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:408
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:350
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:313
+msgid "Donwloads"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:336
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:283
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:403
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:377
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:368
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:282
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:326
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:426
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:368
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:331
+msgid "Powered by"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:338
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:285
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:405
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:379
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:370
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:284
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:328
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:428
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:370
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:333
+msgid "All rights reserved"
+msgstr ""
+
+#: app/tmp/views/1a6cd918bc8666b69cc1cc6cfd6915408c792d93.file.screencasts.tpl.php:339
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:286
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:406
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:380
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:371
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:285
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:329
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:429
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:371
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:334
+msgid "Template by"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:48
+msgid "Nothing alive here!"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:49
+msgid "error - not found"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:56
+msgid "Home Page"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:59
+msgid "Site Map"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:62
+msgid "Website Search"
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:65
+msgid "We suppose the dead pages were not what you were looking for."
+msgstr ""
+
+#: app/tmp/views/2ede85ec064982547307ac35c7c444b8444ff9cc.file.notFound.tpl.php:71
+msgid "&copy; Lellys Informática &middot; Designed by TemplateMonster <a href=\"http://www.templatemonster.com\" target=\"_blank\">website templates</a>"
+msgstr ""
+
+#: app/tmp/views/358d3aaa15c6843527b665938559c9270531cb63.file.versionWidget.tpl.php:58
+msgid "Version history"
+msgstr ""
+
+#: app/tmp/views/358d3aaa15c6843527b665938559c9270531cb63.file.versionWidget.tpl.php:65
+msgid "Date"
+msgstr ""
+
+#: app/tmp/views/358d3aaa15c6843527b665938559c9270531cb63.file.versionWidget.tpl.php:68
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:272
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:300
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:328
+msgid "Size"
+msgstr ""
+
+#: app/tmp/views/358d3aaa15c6843527b665938559c9270531cb63.file.versionWidget.tpl.php:74
+#: app/tmp/views/358d3aaa15c6843527b665938559c9270531cb63.file.versionWidget.tpl.php:85
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:228
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:235
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:242
+msgid "Download"
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:65
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:186
+msgid "Confirm Account"
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:209
+msgid "Congratulations your account was succefully verificated."
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:211
+msgid "You can now"
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:213
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:47
+msgid "Login"
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:216
+msgid "We're sorry but this token doesn't exists or has expired."
+msgstr ""
+
+#: app/tmp/views/43e34e1f20b41bbe36c3d0c127138c6cc2d6fa88.file.confirm.tpl.php:225
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:319
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:310
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:310
+msgid "About Membership"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:211
+msgid "Download the EasyFw package and build your App faster then ever."
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:214
+msgid "Clone our repository at github, and contribute with us."
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:252
+msgid "Older"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:254
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:282
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:310
+msgid "Version Status"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:258
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:286
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:314
+msgid "PHP 5.2 or above"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:260
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:288
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:316
+msgid "Requirement"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:266
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:294
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:322
+msgid "Release Date"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:280
+msgid "Stable"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:308
+msgid "Beta"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:336
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:340
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:344
+msgid "Free"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:354
+msgid "GIT repository"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:356
+msgid "If you are an adventurer like us, this is the address of the git repository where we are developing even better things in EasyFramework. If you want to track the progress of the project, simply clone our repository:"
+msgstr ""
+
+#: app/tmp/views/46e24e344aaf5e8c27b4125cc301a03ae20504f5.file.framework.tpl.php:361
+msgid "If you want to contribute in the development of EasyFramework, just do a fork our repository, so you can make your changes, and so we can import them into the official repository."
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:65
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:186
+msgid "New Member"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:212
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:212
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:212
+msgid "Account details"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:214
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:214
+msgid "all fields are required"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:218
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:218
+msgid "Select..."
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:218
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:218
+msgid "Chose Plan"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:222
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:221
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:222
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:54
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:56
+msgid "Username"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:227
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:60
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:62
+msgid "Password"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:231
+msgid "Confirm Password"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:236
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:227
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:228
+msgid "exemple@domain.com"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:236
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:227
+msgid "Email address"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:245
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:237
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:236
+msgid "Personal info"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:247
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:286
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:238
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:277
+msgid "all fields are optional"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:251
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:241
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:242
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:219
+msgid "Name"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:256
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:246
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:247
+msgid "Gender"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:260
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:251
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:260
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:251
+msgid "Birthday"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:265
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:256
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:256
+msgid "Address"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:270
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:261
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:261
+msgid "Country"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:274
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:266
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:265
+msgid "City"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:284
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:276
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:275
+msgid "Professional info"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:291
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:280
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:282
+msgid "Job Title"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:295
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:285
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:286
+msgid "Company"
+msgstr ""
+
+#: app/tmp/views/4cc91b018fdb24ac5a6ffcfc264a95e6bfd44097.file.add.tpl.php:300
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:290
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:291
+msgid "Experience"
+msgstr ""
+
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:65
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:186
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:65
+#: app/tmp/views/ae1c3905362f22a2b8e7158868495791cd9ab30a.file.edit.tpl.php:186
+msgid "Edit Profile"
+msgstr ""
+
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:216
+msgid "Plan"
+msgstr ""
+
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:227
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:225
+msgid "Email"
+msgstr ""
+
+#: app/tmp/views/7231d1330daec5e4969346a818eb3d2076e053ea.file.profile.tpl.php:251
+msgid "Bithday"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:133
+msgid "Comunity"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:147
+#: app/tmp/views/80903f2c195ee01f7db8083d484d74cf35a64c88.file.screencast.tpl.php:152
+msgid "Blog"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:168
+msgid "Contributing"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:194
+msgid "EasyFramework License"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:200
+msgid "EasyFrameowrk is released under the MIT license."
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:205
+msgid "According to"
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:209
+msgid "\"It is a permissive license, meaning that it permits reuse within proprietary software on the condition that the license is distributed with that software. The license is also GPL-compatible, meaning that the GPL permits combination and redistribution with software that uses the MIT License.\""
+msgstr ""
+
+#: app/tmp/views/7b575c9ec20f3f6ddf3d5d4bbf8077dce79b7534.file.license.tpl.php:216
+msgid "The Lincese."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:181
+msgid "Say hello to the new version"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:186
+msgid "EasyFw comes with rich features: MVC, DAO/ActiveRecord, I18N/L10N, caching, authentication and role-based access control, etc. It can reduce your development time significantly."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:190
+#, php-format
+msgid "Download %s"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:202
+msgid "The best technologies in your app."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:205
+msgid "EasyFw have by default many integrations like Smarty Template Engine, PHPMailer, Nusoap an many more."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:217
+msgid "Talk"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:218
+msgid "Web Applications Security with Gedvan Dias."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:221
+msgid "Learn More"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:244
+msgid "Visit us at Github"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:246
+msgid "Check our repo at Github and stay tuned for the latest news"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:252
+msgid "EasyFW at Github"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:267
+msgid "What is EasyFW"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:270
+msgid "The EasyFramework development framework is a flexible, practical and efficient. It has a wide variety of features yourself, so that your application be powerful, secure and optimized."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:274
+msgid "Using patterns like MVC (Model-View-Controller) and ORM (Object-Relational-Modeling) will mantivel your system and reduce the development time for your team."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:284
+msgid "Fast"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:286
+msgid "EasyFW only loads the features that you need. It has powerful caching support. It is designed to work efficiently with AJAX"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:292
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:295
+msgid "Secure"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:297
+msgid "Security comes as standard with EasyFW. It includes input validation, output filtering, SQL injection and Cross-site scripting prevention."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:305
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:308
+msgid "Friendly License"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:310
+msgid "EasyFW is licensed under the MIT license which makes it perfect for use in commercial applications."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:316
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:319
+msgid "Clean MVC Conventions"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:321
+msgid "Instead of having to plan where things go, EasyFW comes with a set of conventions to guide you in developing your application."
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:338
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:349
+msgid "Like us on Facebook"
+msgstr ""
+
+#: app/tmp/views/94941d3d764029d0854c950aa84c837857587558.file.index.tpl.php:360
+msgid "Fork us at Github"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:184
+msgid "Support"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:209
+msgid "Get in touch."
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:212
+msgid "Got a quaestion, or just fancy getting in touch, we'd love to hear from you."
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:220
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:226
+msgid "(required)"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:232
+msgid "Subject"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:233
+msgid "(optional)"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:238
+msgid "Message"
+msgstr ""
+
+#: app/tmp/views/b431a555f1f0c6bba34b4f751cfa3039a11c0bc7.file.index.tpl.php:243
+msgid "Submit"
+msgstr ""
+
+#: app/tmp/views/c4dabfe7ec1be9917bdfb10c7c1a3aeaff3a11e4.file.adsWidget.tpl.php:28
+msgid "Ads"
+msgstr ""
+
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:32
+msgid "EasyFw"
+msgstr ""
+
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:38
+msgid "Latest Release"
+msgstr ""
+
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:61
+msgid "Book"
+msgstr ""
+
+#: app/tmp/views/cd4409c4e5ac84884ebd96ac0bcac47c9e0689aa.file.navbar.tpl.php:94
+msgid "Services"
+msgstr ""
+
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:32
+msgid "Logged in as"
+msgstr ""
+
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:38
+msgid "Logout"
+msgstr ""
+
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:45
+msgid "Register"
+msgstr ""
+
+#: app/tmp/views/cdcd2b545d0fc4b126b7b1342148582dd26f7890.file.loginForm.tpl.php:65
+msgid "Forgot"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:178
+msgid "Activities"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:179
+msgid "Activity"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:180
+msgid "Sport"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:182
+msgid "Businesses"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:184
+msgid "Bar"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:185
+msgid "Cafe"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:186
+msgid "Hotel"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:187
+msgid "Restaurant"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:189
+msgid "Groups"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:190
+msgid "Cause"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:191
+msgid "Sports league"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:192
+msgid "Sports team"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:194
+msgid "Organizations"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:195
+msgid "Band"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:196
+msgid "Government"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:197
+msgid "Non-profit"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:198
+msgid "School"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:199
+msgid "University"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:201
+msgid "People"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:202
+msgid "Actor or actress"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:203
+msgid "Athlete"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:204
+msgid "Author"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:205
+msgid "Director"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:206
+msgid "Musician"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:207
+msgid "Politician"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:208
+msgid "Profile"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:209
+msgid "Public Figure"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:211
+msgid "Places"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:212
+msgid "City or locality"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:214
+msgid "Landmark"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:215
+msgid "State or province"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:217
+msgid "Products and Entertainment"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:218
+msgid "Music Album"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:220
+msgid "Drink"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:221
+msgid "Video episode"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:222
+msgid "Food"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:223
+msgid "Game"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:224
+msgid "Movie"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:225
+msgid "Music playlist"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:226
+msgid "Product"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:227
+msgid "Radio station"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:228
+msgid "Song"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:229
+msgid "Television show"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:230
+msgid "Video"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:232
+msgid "Websites"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:233
+msgid "Article"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:235
+msgid "Website"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:259
+msgid "Afrikaans"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:260
+msgid "Arabic"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:261
+msgid "Azeri"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:262
+msgid "Belarusian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:263
+msgid "Bulgarian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:264
+msgid "Bengali"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:265
+msgid "Bosnian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:266
+msgid "Catalan"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:267
+msgid "Czech"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:268
+msgid "Welsh"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:269
+msgid "Danish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:270
+msgid "German"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:271
+msgid "Greek"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:272
+msgid "English (UK)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:273
+msgid "English (US)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:274
+msgid "Esperanto"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:275
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:276
+msgid "Spanish (Latin America)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:277
+msgid "Estonian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:278
+msgid "Basque"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:279
+msgid "Persian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:280
+msgid "Finnish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:281
+msgid "Faroese"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:282
+msgid "French (Canada)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:283
+msgid "French (France)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:284
+msgid "Frisian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:285
+msgid "Irish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:286
+msgid "Galician"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:287
+msgid "Hebrew"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:288
+msgid "Hindi"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:289
+msgid "Croatian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:290
+msgid "Hungarian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:291
+msgid "Armenian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:292
+msgid "Indonesian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:293
+msgid "Icelandic"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:294
+msgid "Italian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:295
+msgid "Japanese"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:296
+msgid "Georgian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:297
+msgid "Korean"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:298
+msgid "Kurdish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:299
+msgid "Latin"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:300
+msgid "Lithuanian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:301
+msgid "Latvian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:302
+msgid "Macedonian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:303
+msgid "Malayalam"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:304
+msgid "Malay"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:305
+msgid "Norwegian (bokmal)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:306
+msgid "Nepali"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:307
+msgid "Dutch"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:308
+msgid "Norwegian (nynorsk)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:309
+msgid "Punjabi"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:310
+msgid "Polish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:311
+msgid "Pashto"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:312
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:313
+msgid "Romanian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:314
+msgid "Russian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:315
+msgid "Slovak"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:316
+msgid "Slovenian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:317
+msgid "Albanian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:318
+msgid "Serbian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:319
+msgid "Swedish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:320
+msgid "Swahili"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:321
+msgid "Tamil"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:322
+msgid "Telugu"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:323
+msgid "Thai"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:324
+msgid "Filipino"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:325
+msgid "Turkish"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:326
+msgid "Ukrainian"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:327
+msgid "Vietnamese"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:328
+msgid "Simplified Chinese (China)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:329
+msgid "Traditional Chinese (Hong Kong)"
+msgstr ""
+
+#: app/Vendors/OpenGraphProtocol/open-graph-protocol.php:330
+msgid "Traditional Chinese (Taiwan)"
+msgstr ""
+
+#: app/webroot/index.php:75
+msgid "EasyFW core could not be found.  Check the value of EASY_CORE_INCLUDE_PATH in APP/webroot/index.php.  It should point to the directory containing your "
+msgstr ""
+
