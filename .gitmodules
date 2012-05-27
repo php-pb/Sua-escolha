@@ -6,4 +6,4 @@
 	url = https://github.com/jquery/jquery.git
 [submodule "easy/easyframework"]
 	path = easy/easyframework
-	url = https://github.com/LellysInformatica/EasyFramework.git
+	url = git://github.com/LellysInformatica/EasyFramework.git
