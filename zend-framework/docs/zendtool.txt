@@ -1,0 +1,27 @@
+zf create project blog
+
+zf configure dbadapter "adapter=Pdo_Mysql&username=root&password=&dbname=blog"
+zf create dbtable.from-database
+
+zf enable layout
+zf create action sobre Index
+
+zf create controller Auth
+zf create action login Auth
+zf create form Login
+zf create action logout Auth
+zf create model Usuario
+
+zf create form Postagem
+zf create controller Postagens
+zf create action exibir Postagens
+zf create action listar Postagens
+zf create action ultimas Postagens
+zf create action cadastrar Postagens
+zf create action editar Postagens
+zf create action excluir Postagens
+zf create model Postagem
+
+zf create action comentar Postagens
+zf create action excluirComentario Postagens
+zf create form Comentario
