@@ -1,0 +1,13 @@
+<div class="hero-unit">
+
+    <h1><?php echo $this->escape($this->postagem->nome) ?></h1>
+
+    <div class="info">
+        <a href="#comentarios"><?php echo count($this->comentarios) ?> comentários</a> -
+        Postado por <em><?php echo $this->escape($this->postagem->getUsuario()->nome) ?></em>,
+        <strong><?php echo $this->postagem->getCriacao("EEEE, dd 'de' MMMM 'de' yyyy 'às' HH:mm") ?></strong>
+    </div>
+
+    <?php echo $this->form ?>
+
+</div>

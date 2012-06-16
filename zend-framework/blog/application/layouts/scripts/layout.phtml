@@ -1,0 +1,82 @@
+<?=$this->doctype() ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" <?=$this->htmlTagAttribs?>>
+<head>
+
+<?php echo $this->headMeta('Jaime Neto (www.jaimeneto.com)', 'author')
+    ->headMeta('Blog criado a partir da seguinte proposta: http://php-pb.net/sua-escolha', 'description')
+    ->appendHttpEquiv('Content-Type', 'text/html; charset=UTF-8'); ?>
+
+<?php echo $this->headTitle('PHP-PB.NET - Sua Escolha - Blog (Zend Framework)') ?>
+
+<?php echo $this->headLink()
+        ->appendStylesheet($this->baseUrl('lib/bootstrap/css/bootstrap.min.css'))
+        ->appendStylesheet($this->baseUrl('css/styles.css'))?>
+
+<?php echo $this->headScript()->appendFile('https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js') ?>
+
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+
+      <a class="brand" href="#">Blog Sua Escolha</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li class="active"><a href="<?php echo $this->baseUrl() ?>">Início</a></li>
+          <li><a href="<?php echo $this->baseUrl('index/sobre') ?>">Sobre</a></li>
+          <? if (Zend_Auth::getInstance()->hasIdentity()): ?>
+          <li><a href="<?php echo $this->baseUrl('postagens/cadastrar') ?>">Cadastrar Postagem</a></li>
+          <? endif ?>
+        </ul>
+        <div class="navbar-text pull-right"><?php echo $this->formAuth() ?></div>
+      </div><!--/.nav-collapse -->
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row-fluid">
+        <div class="span9">
+            <?php echo $this->layout()->content; ?>
+        </div><!--/span-->
+
+        <div class="span3">
+
+            <?php echo $this->action('ultimas', 'postagens', null, array('qtde' => 10)) ?>
+
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                    <li class="nav-header">Links do projeto</li>
+                    <li><a href="http://www.php-pb.net" target="_blank">PHP-PB.NET</a></li>
+                    <li><a href="http://php-pb.net/sua-escolha/" target="_blank">/sua escolha</a></li>
+                    <li><a href="https://github.com/php-pb/Sua-escolha/" target="_blank">Git Hub do projeto</a></li>
+                    <li class="nav-header">Links relacionados</li>
+                    <li><a href="http://www.php.net" target="_blank">php.net</a></li>
+                    <li><a href="http://zendframework.com" target="_blank">Zend Framework</a></li>
+                    <li><a href="http://www.jquery.com" target="_blank">Jquery</a></li>
+                    <li><a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a></li>
+                    <li class="nav-header">Blog do desenvolvedor</li>
+                    <li><a href="http://blog.jaimeneto.com" target="_blank">blog.jaimeneto.com</a></li>
+                </ul>
+            </div><!--/.well -->
+
+        </div><!--/span-->
+
+    </div><!--/row-->
+
+    
+    <hr />
+
+    <footer>
+        <p>&copy; PHP-PB.NET 2012 - Desenvolvido por <a href="http://www.jaimeneto.com">jaimeneto.com</a></p>
+    </footer>
+
+</div><!--/.container-fluid -->
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?php if ($this->postagens): ?>
+    <?php foreach ($this->postagens as $postagem): ?>
+
+        <div class="hero-unit">
+
+            <h2>
+                <a href="<?php echo $this->baseUrl("postagens/exibir/id/{$postagem->id}") ?>">
+                    <?php echo $this->escape($postagem->nome) ?>
+                </a>
+            </h2>
+            
+            <div class="info">
+                <a href="<?php echo $this->baseUrl("postagens/exibir/id/{$postagem->id}#comentarios") ?>">
+                    <?php echo $postagem->countComentarios() ?> comentários
+                </a> -
+                Postado por <em><?php echo $this->escape($postagem->getUsuario()->nome) ?></em>,
+                <strong><?php echo $postagem->getCriacao("EEEE, dd 'de' MMMM 'de' yyyy 'às' HH:mm") ?></strong>
+
+                <? if(Zend_Auth::getInstance()->hasIdentity()): ?>
+                    <a href="<?php echo $this->baseUrl("postagens/editar/id/{$postagem->id}") ?>">[editar]</a>
+                    <a href="<?php echo $this->baseUrl("postagens/excluir/id/{$postagem->id}") ?>">[excluir]</a>
+                <? endif ?>
+            </div>
+
+            <div class="descricao"><?php echo $postagem->descricao ?></div>
+
+        </div>
+
+    <?php endforeach; ?>
+<?php endif; ?>

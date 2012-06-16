@@ -1,0 +1,14 @@
+<?php if ($this->postagens): ?>
+    <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+            <li class="nav-header">Últimas Postagens</li>
+            <?php foreach ($this->postagens as $postagem): ?>
+            <li>
+                <a href="<?php echo $this->baseUrl("postagens/exibir/id/{$postagem->id}") ?>">
+                    <?php echo $this->escape($postagem->nome) ?>
+                </a>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+    </div><!--/.well -->
+<?php endif; ?>
