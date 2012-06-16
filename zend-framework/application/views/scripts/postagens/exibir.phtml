@@ -1,0 +1,44 @@
+<div class="hero-unit">
+
+    <h1><?php echo $this->escape($this->postagem->nome) ?></h1>
+    
+    <div class="info">
+        <a href="#comentarios"><?php echo count($this->comentarios) ?> comentários</a> -
+        Postado por <em><?php echo $this->escape($this->postagem->getUsuario()->nome) ?></em>,
+        <strong><?php echo $this->postagem->getCriacao("EEEE, dd 'de' MMMM 'de' yyyy 'às' HH:mm") ?></strong>
+
+        <? if(Zend_Auth::getInstance()->hasIdentity()): ?>
+            <a href="<?php echo $this->baseUrl("postagens/editar/id/{$this->postagem->id}") ?>">[editar]</a>
+            <a href="<?php echo $this->baseUrl("postagens/excluir/id/{$this->postagem->id}") ?>">[excluir]</a>
+        <? endif ?>
+    </div>
+
+    <div class="descricao"><?php echo $this->postagem->descricao ?></div>
+
+    <div id="comentarios">
+        <h3>Comentários</h3>
+        <?php if ($this->comentarios->count() > 0): ?>
+        <ul>
+            <?php foreach($this->comentarios as $comentario): ?>
+            <li>
+                <strong><?php echo $this->escape($comentario->nome) ?></strong> -
+                <em><?php echo $this->formataData("EEEE, dd 'de' MMMM 'de' yyyy 'às' HH:mm", $comentario->criacao) ?></em>
+
+                <? if(Zend_Auth::getInstance()->hasIdentity()): ?>
+                    <a href="<?php echo $this->baseUrl("postagens/excluir-comentario/id/{$comentario->id}") ?>">[excluir]</a>
+                <? endif ?>
+
+                <blockquote class="descricao">
+                    <?php echo $this->escape($comentario->descricao) ?>
+                </blockquote>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+        <?php else: ?>
+        <ul><li><blockquote class="descricao">Nenhum comentário até o momento...</blockquote></li></ul>
+        <?php endif; ?>
+
+        <?php echo $this->action('comentar', 'postagens', null, array('postagem_id' => $this->postagem->id)) ?>
+    </div>
+
+</div>

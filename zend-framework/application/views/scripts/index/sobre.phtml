@@ -1,0 +1,52 @@
+<div class="hero-unit">
+
+    <h1>Sobre este blog</h1>
+
+    <div class="descricao">
+        <div>
+            Este blog foi criado segundo a proposta da comunidade PHP-PB feita do site
+            <a href="http://www.php-pb.net" target="_blank">php-pb.net</a>, que sugere que o mesmo
+            sistema seja desenvolvido em vários frameworks PHP diferentes. Este, por sua vez,
+            foi desenvolvido em <strong>Zend Framework</strong>, utilizando a versão
+            <strong>1.11.11</strong>, além do twitter bootstrap para o CSS.
+        </div>
+
+        <hr />
+
+        <h3>RAD com Zend_Tool</h3>
+
+        <div>Eis o código utilizado para montar a estrutura base desta aplicação:</div>
+
+        <pre>
+zf create project blog
+
+zf configure dbadapter "adapter=Pdo_Mysql&username=root&password=&dbname=blog"
+zf create dbtable.from-database
+
+zf enable layout
+zf create action sobre Index
+
+zf create controller Auth
+zf create action login Auth
+zf create form Login
+zf create action logout Auth
+zf create model Usuario
+
+zf create form Postagem
+zf create controller Postagens
+zf create action exibir Postagens
+zf create action listar Postagens
+zf create action ultimas Postagens
+zf create action cadastrar Postagens
+zf create action editar Postagens
+zf create action excluir Postagens
+zf create model Postagem
+
+zf create action comentar Postagens
+zf create action excluirComentario Postagens
+zf create form Comentario
+        </pre>
+
+    </div>
+
+</div>
