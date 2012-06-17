@@ -47,4 +47,6 @@ Routes:
     '/login': {controller: Auth, action: login}
     '/logout': {controller: Auth, action: logout}
     '/admin': {controller: Home, action: index, admin: true, prefix: admin}
+  mapResources:
+    - Postagem
 ...

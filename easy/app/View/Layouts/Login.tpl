@@ -9,10 +9,10 @@
 
         <!-- Le styles -->
         {$Html->stylesheet([
-                            '/assets/css/bootstrap.css', 
-                            '/assets/css/bootstrap-responsive.css', 
-                            '/assets/css/site.css'
-                            ])}
+            '/assets/css/bootstrap.min.css', 
+            '/assets/css/bootstrap-responsive.css', 
+            '/assets/css/site.css'
+        ])}
         {block name=styles}{/block}
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->

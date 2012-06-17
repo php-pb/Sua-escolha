@@ -1,19 +1,23 @@
 <?php
 
-class AppController extends Controller {
+class AppController extends Controller
+{
 
     public $components = array('Auth');
 
-    public function beforeFilter() {
+    public function beforeFilter()
+    {
         $this->_configAuth();
         $this->isGuest = !$this->Auth->isAuthenticated();
     }
 
-    public function beforeRender() {
+    public function beforeRender()
+    {
         
     }
 
-    private function _configAuth() {
+    private function _configAuth()
+    {
         $this->Auth->setGuestMode(true);
         // Setamos o Modelo
         $this->Auth->setUsermodel('Usuario');

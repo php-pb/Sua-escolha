@@ -1,10 +1,12 @@
 <?php
 
-class HomeController extends AppController {
+class HomeController extends AppController
+{
 
     public $uses = array('Postagem');
 
-    public function index() {
+    public function index()
+    {
         $maisRecentes = $this->Postagem->getRecentes(0, 6);
 
         $qtdePorLinha = 3;
@@ -17,7 +19,8 @@ class HomeController extends AppController {
     /**
      * @Authorized('Administrador') 
      */
-    public function admin_index() {
+    public function admin_index()
+    {
         
     }
 
