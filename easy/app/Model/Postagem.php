@@ -1,33 +1,19 @@
 <?php
 
-App::uses("Comentario", "Model");
-App::uses("Usuario", "Model");
-
-class Postagem extends AppModel {
+class Postagem extends AppModel
+{
 
     public $table = "postagens";
-    protected $comentarios;
-    protected $usuario;
+    public $hasMany = array(
+        'Comentarios' => array(
+            'className' => 'Comentario',
+            'foreignKey' => 'postagem_id'
+        )
+    );
+    public $hasOne = "Usuario";
 
-    public function __construct() {
-        parent::__construct();
-        $this->comentarios = new Comentario();
-        $this->usuario = new Usuario();
-    }
-
-    public function getUsuario() {
-        return $this->usuario->getById($this->usuario_id);
-    }
-
-    public function getComentarios() {
-        if (isset($this->comentario_id)) {
-            return $this->comentarios->getAll();
-        } else {
-            return $this->comentarios;
-        }
-    }
-
-    public function getAll($options = array(), $limit = 0, $offset = 10) {
+    public function getAll($options = array(), $limit = 0, $offset = 10)
+    {
         $options = Hash::merge(array(
                     "limit" => $limit,
                     "offset" => $offset
@@ -36,21 +22,31 @@ class Postagem extends AppModel {
         return $result;
     }
 
-    public function getRecentes($limit = 0, $offset = 3) {
+    public function getRecentes($limit = 0, $offset = 3)
+    {
         return $this->getAll(array(), $limit = 0, $offset = 10);
     }
 
-    public function getByAuthor($author, $limit = 0, $offset = 10) {
-        $usuario = $this->usuario->getByUsername($author);
+    public function getByAuthor($author, $limit = 0, $offset = 10)
+    {
         $options = array(
-            "conditions" => array("usuario_id" => $usuario->id),
+            "conditions" => array("usuario_id" => $author->id),
         );
         return $this->getAll($options, $limit = 0, $offset = 10);
     }
 
-    public function getByTitulo($titulo) {
+    public function getByTitulo($titulo)
+    {
         $options = array(
             "conditions" => array("titulo" => $titulo)
+        );
+        return $this->entityManager->find($options);
+    }
+
+    public function getById($id)
+    {
+        $options = array(
+            "conditions" => array("id" => $id)
         );
         return $this->entityManager->find($options);
     }
