@@ -1,13 +1,15 @@
 <?php
 
-class AuthController extends AppController {
+class AuthController extends AppController
+{
 
     public $uses = array();
 
     /**
      * @Layout('Login')
      */
-    public function login() {
+    public function login()
+    {
         try {
             if (!empty($this->data)) {
                 if (isset($this->data['remember'])) {
@@ -24,7 +26,8 @@ class AuthController extends AppController {
         }
     }
 
-    public function logout() {
+    public function logout()
+    {
         $this->redirect($this->Auth->logout());
     }
 
