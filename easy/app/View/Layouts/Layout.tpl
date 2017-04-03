@@ -9,10 +9,10 @@
 
         <!-- Le styles -->
         {$Html->stylesheet([
-                            '/assets/css/bootstrap.min.css', 
-                            '/assets/css/bootstrap-responsive.css', 
-                            '/assets/css/site.css'
-                            ])}
+            '/assets/css/bootstrap.min.css', 
+            '/assets/css/bootstrap-responsive.css', 
+            '/assets/css/site.css'
+        ])}
         {block name=styles}{/block}
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -64,7 +64,7 @@
                     </div>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li>{$Html->link('Home', $Url->getBase())}</li>
+                            <li>{$Html->link('Home', '/')}</li>
                             <li>{$Html->link('Sobre', "#")}</li>
                             <li>{$Html->link('Contato', "#")}</li>
                         </ul>
@@ -80,7 +80,7 @@
                         <ul class="nav nav-list">
                             <li class="nav-header">Menu</li>
                             <li>
-                                {$Html->link('<i class="icon-home"></i> Home', $Url->getBase())}
+                                {$Html->link('<i class="icon-home"></i> Home', '/')}
                             </li>
                             <li>
                                 {$Html->actionLink('<i class="icon-tags"></i> Ver Tudo', null, 'postagem')}
