@@ -1,0 +1,50 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+.hero-unit h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.descricao {
+    margin: 20px 0;
+    text-align: justify;
+}
+pre {
+    margin: 20px 0;
+}
+form ul.errors {
+    color: red;
+}
+#comentarios ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+#comentarios ul li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.nav .nav-header {
+    font-size: 15px;
+    line-height: 30px;
+}
+#form_login {
+    margin: 0;
+    float: right;
+}
+#form_login dl {
+    margin: 0;
+}
+#form_login dt, #form_login dd {
+    float: left;
+    margin: 0;
+}
+#form_login input {
+    margin: 5px ;
+}
+#form_login #submit {
+    margin-top: 0;
+}
